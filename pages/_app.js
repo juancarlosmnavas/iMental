@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import Footer from '../components/Footer'
 import Head from 'next/head'
 import { Montserrat } from 'next/font/google'
 
@@ -24,4 +23,3 @@ export default function MyApp({ Component, pageProps }) {
 }
 
 
-//scp -i /Users/juancarlosmartineznavas/Desktop/iMental-front.pem -r /Users/juancarlosmartineznavas/Desktop/NEXTJS-SFCC-APP iMental@172.31.14.35:/home/ec2-user

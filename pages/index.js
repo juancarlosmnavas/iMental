@@ -13,11 +13,6 @@ export default function Home() {
     <Header />
     <Slogan/>
     <MeditationSection/>
-    <MeditationSection/>
-    <MeditationSection/>
-    <MeditationSection/>
-    <MeditationSection/>
-    <MeditationSection/>
     <Footer />
   </div>
   );

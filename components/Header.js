@@ -3,12 +3,12 @@ import React from "react";
 function Header() {
   return (
     <header className="header">
-      <div className="header-left">
+      <div className="header">
         <nav>
           <ul>
             <li>
               <a href="#">Inicio</a>
-            </li>
+              </li>
             <li>
               <a href="#">Acerca</a>
             </li>
@@ -35,7 +35,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div className="header-right">
+      <div className="header">
         <div className="search-login">
           <div className="search">
             <input type="text" placeholder="Buscar..." />
@@ -51,7 +51,7 @@ function Header() {
             </button>
           </div>
           <div className="login">
-            <a href="#">Iniciar sesión</a>
+            <a href="#">Login</a>
 
           </div>
         </div>
