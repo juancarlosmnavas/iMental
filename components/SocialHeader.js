@@ -1,15 +1,15 @@
-import styles from 'public/SocialHeader.module.css'
+import styles from 'public/SocialHeader.module.css';
 
 const SocialHeader = () => {
   return (
     <div className={styles.socialHeader}>
       <div className={styles.socialLinks}>
-        <a href="https://www.facebook.com"><i className="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a>
-        <a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com"><img src="/images/facebook.png" alt="Facebook"></img></a>
+        <a href="https://www.instagram.com"><img src="/public/instagram.png"></img></a>
+        <a href="https://www.twitter.com"><img src="/images/twitter.png" alt="Twitter"></img></a>
       </div>
     </div>
   )
 }
 
-export default SocialHeader
+export default SocialHeader;

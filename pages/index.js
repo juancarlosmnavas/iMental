@@ -8,7 +8,7 @@ import SocialHeader from '../components/SocialHeader'
 
 export default function Home() {
   return (
-  <div style={{ margin: 0, background:'#fff'}}>
+  <div style={{width:"auto", background:'#fff'}}>
     <SocialHeader />
     <Header />
     <Slogan/>

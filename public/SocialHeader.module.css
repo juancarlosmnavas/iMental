@@ -1,23 +1,20 @@
 .socialHeader {
+	background-color: #fff;
+	height: 30px;
+	width: max-content;
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
-	background-color: #fff;
-	height: 50px;
-	margin-left: auto;
+	align-items:  center;
+	text-align: center;
 	margin-right: auto;
-	width: max-content;
   }
 
   .socialLinks {
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	width: max-content;
   }
 
   .socialLinks a {
-	color: #fff;
+	color: #333;
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 10px;
@@ -35,11 +32,11 @@
 	height: 30px;
 	border-radius: 50%;
 	background-color: #333;
-	color: #333;
+	color: #fff;
 	transition: all 0.2s ease-in-out;
   }
 
   .socialLinks i:hover {
-	color: #fff;
+	color: #333;
 	background-color: #FDC0DC;
   }
